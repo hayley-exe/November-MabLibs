@@ -1,11 +1,12 @@
 let userName = prompt('What is your name?')
-let userQuest = prompt('What is your quest?')
+let userQuest = prompt('How are you feeling?')
 let userFavColor = prompt('What is your favorite color?')
-let swallowAirSpeed = prompt('What is the air speed of an unlaiden swallow?')
+let userLofi = prompt('What ')
 
 
-let myStory = `<p> Hello ${userName}. Answer me these questions <span class="loud"</span>three and the other side you'll see.</p>
-<p> I see you have already answered, so your quest is to ${userQuest}.</p>`
+let myStory = `<p> Hello ${userName}. 
+<p> I see you are feeling ${userQuest}.</p>I understand that you are likely <span class="loud"</span>anxious/overwhelmed/upset</p></span>
+<p>Take some time to listen to some music and relax.</p>`
 console.log(myStory)
 
 document.getElementById('story').innerHTML = myStory

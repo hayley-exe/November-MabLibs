@@ -1,3 +1,11 @@
 .loud {
-  color: mediumturquoise;
+  color: white;
+}
+body {
+  background-image: url(imgs/IMG_3106.jpg);
+  height: 100vh;
+  width: 100vw;
+
+  background-size: cover;
+  color: white;
 }

@@ -1,7 +1,7 @@
 let userName = prompt('What is your name?')
 let userQuest = prompt('How are you feeling?')
 let userFavColor = prompt('What is your favorite color?')
-let userLofi = prompt('What ')
+let userLofi = prompt('What kind of music do you like?')
 
 
 let myStory = `<p> Hello ${userName}. 

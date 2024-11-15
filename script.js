@@ -1,11 +1,9 @@
 let userName = prompt('What is your name?')
-let userQuest = prompt('How are you feeling?')
-let userFavColor = prompt('What is your favorite color?')
-let userLofi = prompt('What kind of music do you like?')
+let musicType = prompt('What kind of music do you like?')
 
 
 let myStory = `<p> Hello ${userName}. 
-<p> I see you are feeling ${userQuest}.</p>I understand that you are likely <span class="loud"</span>anxious/overwhelmed/upset</p></span>
+<p> I see you like ${musicType} music.</p>I understand that you might be <span class="loud"</span>anxious/overwhelmed/upset</p></span>
 <p>Take some time to listen to some music and relax.</p>`
 console.log(myStory)
 

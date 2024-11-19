@@ -5,7 +5,13 @@ body {
   background-image: url(imgs/CoverArt_Full.png);
   height: 100vh;
   width: 100vw;
-
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: white;
+  text-shadow: black 1px 2px;
+}
+.card {
+  display: inline-block;
 }
